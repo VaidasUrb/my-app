@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.vovere{
+  color: aquamarine;
+}
+
+.kates{
+  list-style-type: none;
+  color: rgb(98, 98, 231);
+}
