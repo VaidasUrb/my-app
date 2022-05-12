@@ -72,3 +72,8 @@
   justify-content: flex-start;
   border: 1px solid gray;
 }
+
+.rcolor {
+  width: 100vw;
+  height: 33px;
+}
