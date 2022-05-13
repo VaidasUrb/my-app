@@ -77,3 +77,19 @@
   width: 100vw;
   height: 33px;
 }
+
+.lake{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: #61dafb;
+  border-radius: 50%;
+}
+
+.blue-square {
+  width: 40px;
+  height: 40px;
+  background-color: darkblue;
+}
