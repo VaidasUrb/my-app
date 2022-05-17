@@ -182,12 +182,15 @@ button {
 
 
 .kvadratas{
-  width: 400px;
-    height: 400px;
+  position: relative;
+  width: 620px;
+    height: 620px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     border: 2px dotted white;
+    transition: all 0.7s;
     .kvadratas{
       width: 100px;
         height: 100px;
@@ -200,6 +203,9 @@ button {
           height: 100px;
           background-color: #61dafb;
           border-radius: 50%;
+        }
+        &.blue{
+          background-color: blue;
         }
 }
 
@@ -217,4 +223,16 @@ button {
       border: 1px solid white;
       border-radius: 50%;;
    }
+}
+
+.too-small {
+  position: absolute;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 2px dotted white;
+  border-radius: 50%;
 }
