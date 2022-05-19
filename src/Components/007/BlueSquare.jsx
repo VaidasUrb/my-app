@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import randColor from "../../Functions/randColor";
 import Small from "./small";
+import ButtonHolder from "./ButtonHolder";
 
 
 function BlueSquare({ sc }) {
@@ -28,10 +29,10 @@ function BlueSquare({ sc }) {
         }}>
             <button onClick={changeBg}>Change color</button>
             <button onClick={ranback}>Random color</button>
-            <button onClick={chnageBorder}>Change border</button>
-            <Small side='left' top={-60} sc={sc} ></Small>
-            <Small side='right' top={-60} sc={sc}></Small>
-            <Small side='' top={240} sc={sc}></Small>
+            <ButtonHolder virvute={changeBorder} border={border}></ButtonHolder>
+            <Small border={border} side="left" top={-60} sc={sc}></Small>
+            <Small border={border} side="right" top={-60} sc={sc}></Small>
+            <Small border={border} side="" top={140} sc={sc}></Small>
         </div>
 
     )
