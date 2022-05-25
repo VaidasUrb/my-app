@@ -131,7 +131,7 @@
 //Buton
 $color: #0cf;
 
-button {
+button.a {
   display: inline-block;
   padding: .75rem 1.25rem;
   border-radius: 10rem;
@@ -271,3 +271,10 @@ button {
     }
   }
 }
+
+.cards-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
