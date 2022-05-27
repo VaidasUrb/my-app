@@ -21,7 +21,7 @@ function App() {
     }
 
     const changeBacground = () => {
-        steCb(r => !r)
+        steCb('r => !r')
     }
 
     const clickAddSrs = () => setSrs(s => [...s, 1]);
