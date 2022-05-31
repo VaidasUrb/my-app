@@ -291,5 +291,65 @@ button.a {
     align-items: center;
     flex-direction: column;
     margin: 10px;
+
+    div {
+      margin: 3px;
+      transition: all 0.6s;
+      cursor: pointer;
+      padding: 5px 10px;
+
+      &:hover {
+        background-color: gray;
+      }
+
+      span {
+        padding: 0 15px;
+        font-weight: bold;
+        letter-spacing: 0.7px;
+      }
+    }
   }
+} 
+
+.kvc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .kv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    width: 77px;
+    height: 77px;
+    background-color: crimson;
+    margin: 8px;
+
+    &.c1 {
+      border-radius: 50%;
+    }
+  }
+}
+
+.list-group-item {
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}
+
+
+.modal {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
 }
